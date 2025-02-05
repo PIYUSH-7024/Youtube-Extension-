@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Tube - Set Preferences</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <h1>Focus Tube - Set Preferences</h1>
+        <input type="text" id="preferences" placeholder="Enter preferences (comma separated)" />
+        <div id="buttons-container">
+            <button id="savePreferences">Save Preferences</button>
+            <button id="continuePreferences" class="hidden">Continue</button>
+            <button id="addPreference" class="hidden">Add More Keywords</button>
+        </div>
+        <h2>Your Preferences:</h2>
+        <div id="preferencesList"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

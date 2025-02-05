@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  width: 300px;
+  background-color: #181818; /* YouTube Dark theme */
+  color: #fff;
+}
+
+.popup-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ff0000; /* YouTube Red */
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ff0000; /* YouTube Red */
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333; /* Dark input background */
+}
+
+#buttons-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff0000; /* YouTube Red */
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#buttons-container button:hover {
+  background-color: #cc0000;
+}
+
+button.hidden {
+  display: none;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#preferencesList {
+  margin-top: 10px;
+}
+
+.preference-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.remove-preference {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
