@@ -3,7 +3,7 @@
 chrome.storage.local.get('preferences', function (data) {
   const preferences = data.preferences || [];
   if (preferences.length > 0) {
-      const API_KEY = 'AIzaSyAovlhPhj7SU479QXisxB6tI4gjdNcOu4A'; // Replace with your YouTube API key
+      const API_KEY = ''; // place with your YouTube API key
       const query = preferences.join(' ');
       const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&type=video&key=${API_KEY}&maxResults=58`;
 
