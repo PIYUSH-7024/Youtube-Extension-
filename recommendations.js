@@ -1,4 +1,4 @@
-//AIzaSyAMSKQU-Xb9VJYLtycfswhkzAJTCk_oNeE
+
 chrome.storage.local.get('preferences', function (data) {
     const preferences = data.preferences || [];
     if (preferences.length > 0) {
